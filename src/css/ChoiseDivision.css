@@ -1,0 +1,99 @@
+.ChoiseDivision {
+    padding: 60px;
+    min-height: 85vh;
+    background-color: var(--creambasic);
+    border-radius: 30px;
+}
+
+.ChoiseDivision .row {
+    gap: 100px;
+}
+
+.ChoiseDivision .row .col {
+    padding: 30px;
+    width: 500px;
+    background-color: var(--blue);
+    border-radius: 40px;
+    display: grid;
+    justify-items: center;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+.ChoiseDivision .row .col img {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+
+}
+
+figcaption {
+    margin-top: 20px;
+
+}
+
+
+@media screen and (max-width:1200px) {
+    .ChoiseDivision .row .col {
+        padding: 30px;
+        width: 400px;
+        background-color: var(--blue);
+        border-radius: 40px;
+    }
+
+    .ChoiseDivision .row .col img {
+        width: 340px;
+        height: 250px;
+        border-radius: 20px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .ChoiseDivision .row .col h2 {
+        font-size: 20px;
+    }
+
+    .ChoiseDivision .row .col p {
+        font-size: 14px;
+    }
+
+    .ChoiseDivision .row .col {
+        padding: 30px;
+        width: 350px;
+        background-color: var(--blue);
+        border-radius: 40px;
+    }
+
+    .ChoiseDivision .row .col img {
+        width: 300px;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:415px) {
+    .ChoiseDivision .row .col h2 {
+        font-size: 20px;
+    }
+
+    .ChoiseDivision .row .col p {
+        font-size: 12px;
+    }
+
+    .ChoiseDivision .row .col {
+        padding: 20px;
+        width: 290px;
+        background-color: var(--blue);
+        border-radius: 20px;
+    }
+
+    .ChoiseDivision .row .col img {
+        width: 250px;
+        height: 160px;
+        border-radius: 20px;
+    }
+
+}

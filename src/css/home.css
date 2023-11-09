@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300&display=swap');
+
+
+
+.home {
+    background-color: var(--creambasic);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: var(--shadowpage);
+}
+
+.home .accountUser .d-flex img {
+    height: 30px;
+    width: 30px;
+
+}
+
+
+.accountUser .d-flex img {
+    border-radius: 100%;
+}
+
+
+/* Caraosel */
+.home .row .caraosel {
+    width: 750px;
+    height: 420px;
+    background-color: var(--blue);
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.home .row .caraosel .innercaraosel img {
+    width: 300px;
+}
+
+.home .row .caraosel .innercaraosel aside {
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+}
+
+.home .row .caraosel .innercaraosel aside p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.home .row .container .col {
+    width: 230px;
+
+}
+
+/* Caraosel End */
+
+/* Course Progres */
+.home .row .col .coursecard {
+    height: 70px;
+    background-color: #242731;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.home .row .col .coursecard img {
+    width: 40px;
+    height: 40px;
+
+}
+
+
+/* Course Progres End*/
+
+
+
+/* Learning Path */
+
+.learningPath {
+    min-width: 500px;
+}
+
+.home .row .lerningcard {
+    background-color: #242731;
+    color: #ffff;
+    height: 210px;
+    width: 210px;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.home .row .lerningcard p {
+    color: #808191;
+}
+
+.home .row .lerningcard .mt-4 img:nth-child(2) {
+    margin-left: 67px;
+}
+
+.home .row .lerningcard .mt-4 button {
+    background-color: transparent;
+    border: none;
+}
+
+
+
+/* Learning Path End */
+
+
+
+/* Code Challenge */
+.codeChalenge {
+    max-width: 500px !important;
+}
+
+.row .codeChalenge img {
+    height: 210px;
+    width: 420px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.modalLayout .accordion {
+    box-shadow: none !important;
+}
+
+.modalLayout .modalChalenge ul a {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+/* Code Challenge End*/
+
+
+
+/* resvonsive breakpoint */
+
+@media screen and (max-width:1578px) {
+    .row .codeChalenge img {
+        height: 210px;
+        width: 300px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .codeChalenge {
+        max-width: 340px !important;
+    }
+
+
+}
+
+@media screen and (max-width:1278px) {
+    .row .codeChalenge img {
+        height: 210px;
+        width: 320px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .codeChalenge {
+        max-width: 340px !important;
+    }
+
+
+
+}
+
+@media screen and (max-width:1200px) {
+
+    .home .row .caraosel {
+        width: 580px;
+        height: 370px;
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .caraoselPage .carousel .carousel-inner h4 {
+        font-size: 20px;
+    }
+
+    .home .row .caraosel .innercaraosel img {
+        width: 300px;
+    }
+
+    .home .row .col .coursecard {
+        height: 65px;
+    }
+
+
+}
+
+@media screen and (max-width:1122px) {
+    .home {
+
+        padding: 10px;
+    }
+
+    .learningPath {
+        min-width: 750px !important;
+    }
+
+    .learningPath .container {
+        margin: auto
+    }
+
+    .learningPath .d-flex h5 {
+        margin: auto;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .codeChalenge h5 {
+        display: grid;
+        justify-content: center;
+        text-transform: uppercase;
+    }
+
+    .codeChalenge {
+        margin: auto;
+        max-width: 450px !important;
+    }
+
+    .row .codeChalenge img {
+        height: 270px;
+        width: 450px;
+    }
+
+
+
+}
+
+@media screen and (max-width:1183px) {
+    .row .codeChalenge img {
+        height: 210px;
+        width: 290px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .codeChalenge {
+        max-width: 300px !important;
+    }
+
+
+}
+
+@media screen and (max-width:992px) {
+    .row .courseProgres h4 {
+        font-size: 18px;
+        white-space: nowrap;
+    }
+
+
+    .home .row .caraosel {
+        width: 490px;
+        height: 370px;
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .home .row .caraosel .innercaraosel img {
+        width: 240px;
+        height: 280px;
+    }
+
+    .row .courseProgres .coursecard .my-auto p {
+        font-size: 12px;
+    }
+
+    .row .courseProgres .coursecard .my-auto h6 {
+        font-size: 14px;
+    }
+
+    .caraoselPage .carousel .carousel-inner h4 {
+        font-size: 18px;
+    }
+
+    .caraoselPage .carousel .carousel-inner p {
+        font-size: 12px;
+    }
+
+    .row .courseProgres {
+        min-width: 310px;
+    }
+}
+
+
+
+@media screen and (max-width:863px) {
+
+    .home .row .caraosel .innercaraosel img {
+        width: 360px;
+        height: 290px;
+    }
+
+    .home .row .caraosel {
+        margin: auto;
+        width: auto;
+        height: 370px;
+    }
+
+
+    .caraoselPage .carousel .carousel-inner h4 {
+        font-size: 26px;
+    }
+
+    .caraoselPage .carousel .carousel-inner p {
+        font-size: 16px;
+    }
+
+    .row .courseProgres {
+        min-width: 310px;
+        margin-top: 50px;
+    }
+
+    .row .courseProgres .coursecard .my-auto p {
+        font-size: 16px;
+    }
+
+    .row .courseProgres .coursecard .my-auto h6 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .learningPath {
+        min-width: 500px !important;
+    }
+
+    .learningPath .container {
+        gap: 12px;
+    }
+
+    .home .row .caraosel .innercaraosel img {
+        width: 270px;
+        height: 290px;
+    }
+
+    .caraoselPage .carousel .carousel-inner h4 {
+        font-size: 19px;
+    }
+
+    .caraoselPage .carousel .carousel-inner p {
+        font-size: 16px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:576px) {
+    .learningPath {
+        min-width: 300px !important;
+
+    }
+
+    .learningPath .container {
+        justify-content: center;
+    }
+
+    /* .learningPath .lerningcard {
+        width: 390px !important;
+    }
+
+    .home .row .lerningcard .mt-4 img:nth-child(2) {
+        margin-left: 190px;
+    } */
+
+    .home .row .caraosel .innercaraosel img {
+        width: 220px;
+        height: 290px;
+    }
+
+    .caraoselPage .carousel .carousel-inner h4 {
+        font-size: 18px;
+    }
+
+    .caraoselPage .carousel .carousel-inner p {
+        font-size: 14px;
+    }
+
+    .codeChalenge {
+        max-width: 400px !important;
+    }
+
+    .row .codeChalenge img {
+        height: 200px;
+        width: 380px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:518px) {
+    .learningPath {
+        min-width: 300px !important;
+
+    }
+
+    .learningPath .container {
+        justify-content: center;
+    }
+
+    .learningPath .lerningcard {
+        width: 390px !important;
+        margin: auto;
+    }
+
+    .home .row .lerningcard .mt-4 img:nth-child(2) {
+        margin-left: 190px;
+    }
+
+    .home .row .caraosel .innercaraosel img {
+        width: 220px;
+        height: 290px;
+    }
+
+    .caraoselPage .carousel .carousel-inner h4 {
+        font-size: 18px;
+    }
+
+    .caraoselPage .carousel .carousel-inner p {
+        font-size: 14px;
+    }
+
+    .codeChalenge {
+        max-width: 400px !important;
+    }
+
+    .row .codeChalenge img {
+        height: 200px;
+        width: 380px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:476px) {
+    .home .row .caraosel .innercaraosel img {
+        width: 200px;
+        height: 190px;
+    }
+
+    .caraoselPage .carousel .carousel-inner h4 {
+        font-size: 14px;
+    }
+
+    .caraoselPage .carousel .carousel-inner p {
+        font-size: 10px;
+    }
+
+    .home .row .caraosel {
+        height: 280px;
+
+    }
+
+    .home .row .caraosel button {
+        width: 90px;
+        font-size: 10px;
+    }
+
+    .row .caraoselPage .caraosel .carousel-indicators button {
+        width: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:443px) {
+    .home .row .caraosel .innercaraosel img {
+        width: 180px;
+        height: 170px;
+    }
+
+    .caraoselPage .carousel .carousel-inner h4 {
+        font-size: 12px;
+    }
+
+    .caraoselPage .carousel .carousel-inner p {
+        font-size: 9px;
+    }
+
+    .row .courseProgres .coursecard .my-auto p {
+        font-size: 16px;
+    }
+
+    .row .courseProgres .coursecard .my-auto h6 {
+        font-size: 18px;
+    }
+
+    .home .row .col .coursecard {
+        height: 76px;
+    }
+
+    .learningPath .lerningcard {
+        width: 230px !important;
+    }
+
+    .home .row .lerningcard .mt-4 img:nth-child(2) {
+        margin-left: 80px;
+    }
+
+    .codeChalenge {
+        max-width: 300px !important;
+    }
+
+    .row .codeChalenge img {
+        height: 200px;
+        width: 270px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+
+
+}
+
+@media screen and (max-width:398px) {
+    .home .row .caraosel .innercaraosel img {
+        width: 170px;
+        height: 130px;
+    }
+
+    .caraoselPage .carousel .carousel-inner h4 {
+        font-size: 10px;
+    }
+
+    .caraoselPage .carousel .carousel-inner p {
+        font-size: 7px;
+    }
+
+    .home .row .caraosel {
+
+        height: 250px;
+    }
+
+    .home .row .caraosel button {
+        width: 70px;
+        font-size: 7px;
+    }
+
+    .row .courseProgres .coursecard .my-auto p {
+        font-size: 12px;
+    }
+
+    .row .courseProgres .coursecard .my-auto h6 {
+        font-size: 15px;
+    }
+
+    .courseProgres .coursecard img {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .codeChalenge {
+        display: grid;
+        justify-content: center;
+        max-width: 270px !important;
+
+    }
+
+    .row .codeChalenge img {
+        height: 200px;
+        width: 260px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:343px) {
+    .home .row .caraosel .innercaraosel img {
+        width: 100px;
+        height: 120px;
+    }
+
+    .caraoselPage .carousel .carousel-inner h4 {
+        font-size: 9px;
+    }
+
+    .caraoselPage .carousel .carousel-inner p {
+        font-size: 7px;
+    }
+
+    .home .row .caraosel {
+        height: 240px;
+    }
+}
+
+@media screen and (max-width:343px) {}
+
+
+
+/* resvonsive breakpoint end*/

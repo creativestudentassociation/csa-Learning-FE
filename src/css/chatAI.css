@@ -1,0 +1,74 @@
+.chatbot {
+    background-color: var(--creambasic);
+    font-family: 'Quicksand', sans-serif;
+    padding: 30px;
+    border-radius: 18px;
+    min-height: 90vh;
+}
+
+.answerbox {
+    height: 100%;
+    background: #D9D9D9;
+    font-weight: 500;
+}
+
+.question {
+    margin-top: 20px !important;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 16px 10px 10px;
+}
+
+.question .question-content button {
+    background-color: var(--green);
+    color: white;
+    font-weight: 600;
+}
+
+.question .form-floating .form-control {
+    height: 10vh;
+}
+
+.question .form-floating label {
+    font-weight: 600;
+}
+
+.userQuestion p {
+    background-color: var(--blue);
+    padding: 10px;
+    border-radius: 10px;
+    color: #D9D9D9;
+}
+
+.answerAI p {
+    background-color: var(--green);
+    color: #D9D9D9;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:850px) {
+    .answerbox {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .question .form-floating label {
+        font-size: 10px;
+    }
+
+    .question .question-content button {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+}
+
+
+@media screen and (max-width:390px) {
+    .question .form-floating label {
+        font-size: 8px;
+    }
+}

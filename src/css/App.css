@@ -1,0 +1,160 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+  :root {
+      --glasscolor: rgba(255, 255, 255, 0.5);
+      --fontinter: 'Inter', sans-serif;
+      --creambasic: #A3937D;
+      --creamcolor: #FFF5E0;
+      --green: #113946;
+      --blue: #12486B;
+      --blasck: #1A1A1A;
+      --text-white: #FFFFFF;
+      --shadowpage: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+
+  *,
+
+  :after,
+  :before {
+      box-sizing: border-box
+  }
+
+  html {
+      margin: 0;
+      background-color: var(--green) !important;
+
+  }
+
+  #main .openClose {
+      width: 25px;
+      height: 25px;
+      color: var(--creambasic);
+      margin-bottom: 20px;
+      cursor: pointer;
+  }
+
+  .sidebar-wrapper {
+      bottom: 0;
+      height: 100vh;
+      overflow-y: auto;
+      position: fixed;
+      top: 0;
+      transition: left .5s ease-out;
+      z-index: 10;
+      font-family: 'Inter', sans-serif;
+  }
+
+  .sidebar-wrapper .offcanvas .btn-close {
+      color: #3F8CFF;
+      width: 40px;
+      height: 40px;
+      background-color: transparent;
+      cursor: pointer;
+      margin-left: 280px;
+  }
+
+  .offcanvas {
+      background-color: #0F2932 !important;
+      width: 340px !important;
+  }
+
+  .sidebar-wrapper .menu .sidebar-link {
+      align-items: center;
+      border-radius: .5rem;
+      color: #808191;
+      display: block;
+      display: flex;
+      font-size: 1rem;
+      padding: .7rem 1rem;
+      text-decoration: none;
+      transition: all .5s
+  }
+
+
+
+  .sidebar-wrapper .menu .sidebar-link i:before {
+      vertical-align: top
+  }
+
+  .sidebar-wrapper .menu .sidebar-link span {
+      margin-left: 10px;
+      margin-top: 3px;
+
+  }
+
+
+
+  .sidebar-wrapper .menu .sidebar-link:hover {
+      background-color: #38627e;
+      color: #fff;
+
+  }
+
+  .active {
+      background-color: var(--blue);
+      color: #fff !important;
+  }
+
+
+  .sidebar-wrapper .menu .sidebar-item button {
+      background-color: transparent;
+      border: none;
+      width: 250px;
+  }
+
+  .sidebar-wrapper .menu .sidebar-item {
+      list-style: none;
+      margin-top: .5rem;
+      position: relative
+  }
+
+
+
+
+  .sidebar-wrapper .menu .submenu {
+      display: none;
+      list-style: none;
+      overflow: hidden;
+      transition: max-height 2s cubic-bezier(0, .55, .45, 1)
+  }
+
+
+
+  #main {
+      padding: 2rem;
+      color: #FFFFFF;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--green) !important;
+  }
+
+  .modalLayout {
+      background-color: #1F1F1F;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+
+  }
+
+  @media screen and (min-width:1400px) {
+      #main {
+          padding: 16px 120px;
+      }
+  }
+
+  @media screen and (max-width:650px) {
+      #main {
+          padding: 16px 4px;
+      }
+
+  }
+
+  @media screen and (max-width:806px) {
+
+      .home,
+      .ChoiseDivision,
+      .course,
+      .materiList,
+      .vidioCourse {
+          border-radius: 16px !important;
+      }
+  }

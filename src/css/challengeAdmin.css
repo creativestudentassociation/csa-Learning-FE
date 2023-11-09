@@ -1,0 +1,28 @@
+#codeChalenge form {
+    background-color: var(--creambasic);
+    padding: 20px;
+    border-radius: 16px
+}
+
+#codeChalenge form button {
+    background-color: var(--blue);
+    color: var(--text-white);
+}
+
+#codeChalenge table {
+    width: 100%;
+}
+
+#codeChalenge table .trash {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+
+@media screen and (max-width:998px) {
+    #codeChalenge table {
+        font-size: 13px;
+    }
+
+}

@@ -1,0 +1,106 @@
+.course {
+    min-width: 300px;
+    padding-bottom: 90px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadowpage);
+    background-color: var(--creambasic);
+    border-radius: 22px;
+}
+
+.hero-course {
+    background-color: var(--blue);
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px;
+
+}
+
+.container {
+    width: 1200px
+}
+
+
+.container h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.container hr {
+    border: 1.7px solid #1A1A1A;
+    opacity: 100%;
+}
+
+.container .row .col {
+    background-color: #1A1A1A;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    width: 270px;
+    margin-right: 10px;
+}
+
+.container .row .col img {
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/* Responsive Breakpoint */
+
+@media screen and (max-width:1280px) {
+    .container .row {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .container .row .col {
+        width: 210px;
+
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    .container .row .col {
+        width: 150px;
+
+    }
+
+    .container .row .col h6 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .container .row .col {
+        width: 160px;
+    }
+
+    .course .form-control::placeholder {
+        font-size: 12px;
+    }
+
+    .course .container .d-flex {
+        flex-direction: column-reverse;
+    }
+
+    .course .container .d-flex input {
+        margin-left: auto;
+        height: 33px;
+    }
+
+}
+
+@media screen and (max-width:404px) {
+    .container .row .col h6 {
+        font-size: 12px;
+    }
+
+    .container .row .col {
+        width: 140px;
+        font-size: 10px;
+    }
+}

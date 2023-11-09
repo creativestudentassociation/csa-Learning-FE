@@ -1,0 +1,18 @@
+Extra Small (XS):
+
+Rentang ukuran layar: <576 piksel
+
+Rentang ukuran layar: ≥576px
+Contoh kelas kolom: col-sm-
+Medium (MD):
+
+Rentang ukuran layar: ≥768px
+Contoh kelas kolom: col-md-
+Large (LG):
+
+Rentang ukuran layar: ≥992px
+Contoh kelas kolom: col-lg-
+Extra Large (XL):
+
+Rentang ukuran layar: ≥1200px
+Contoh kelas kolom: col-xl-

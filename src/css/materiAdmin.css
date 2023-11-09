@@ -1,0 +1,132 @@
+#materiAdmin {
+    min-height: 85vh;
+}
+
+#materiAdmin form {
+    width: 70%;
+    padding: 40px;
+    background-color: var(--creambasic);
+    color: white;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 10px;
+
+}
+
+#materiAdmin form button {
+    background-color: #113946;
+    color: white;
+    margin-top: 5px;
+}
+
+.materi-content {
+    color: white;
+    padding: 7px;
+    background-color: rgba(211, 202, 202, 0.3) !important;
+    backdrop-filter: blur(10px) !important;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.materi-content .d-flex {
+    font-weight: 600;
+}
+
+.materi-content .row img {
+    width: 440px;
+    height: 290px;
+    border-radius: 7px;
+}
+
+.materi-content .card-body p {
+    line-height: 20px;
+}
+
+.materi-content .card-body .row {
+    padding: 10px;
+
+}
+
+.materi-content .card-body .row .col {
+    padding: 5px;
+    color: white;
+    background-color: #113946;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+
+.button-action .btn:nth-child(1) {
+    background-color: #6B1212;
+    color: white;
+}
+
+.button-action .btn:nth-child(2) {
+    background-color: var(--green);
+    color: white;
+}
+
+.button-action .btn:nth-child(3) {
+    background-color: var(--blue);
+    color: white;
+}
+
+
+
+@media screen and (max-width:1296px) {
+    .materi-content .row img {
+        width: 400px;
+        margin: auto;
+        border-radius: 7px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .materi-content .row img {
+        width: 500px;
+        height: 320px;
+        margin: auto;
+        border-radius: 7px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .materi-content .row img {
+        width: 100%;
+        height: 320px;
+        margin: auto;
+        border-radius: 7px;
+    }
+
+    .materi-content .card-body .row-cols-lg-4 {
+        justify-content: center;
+    }
+
+    .button-action {
+        justify-content: center;
+
+    }
+}
+
+form .input-group input::file-selector-button {
+    background-color: #12486B;
+    color: white;
+
+}
+
+form input {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+@media screen and (max-width:992px) {
+    #materiAdmin form {
+        width: 100%;
+        padding: 14px;
+        background-color: var(--creambasic);
+        color: white;
+        font-weight: 600;
+        font-family: 'Quicksand', sans-serif;
+        border-radius: 10px;
+    }
+}

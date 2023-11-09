@@ -1,0 +1,30 @@
+.vidioCourse {
+    min-height: 85vh;
+    background-color: var(--creambasic);
+    padding: 20px;
+    border-radius: 22px;
+    box-shadow: var(--shadowpage);
+}
+
+.vidioCourse iframe {
+    border-radius: 10px;
+}
+
+.vidioCourse .row .col-xl-7 h4 {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.recomendationVidio .col {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #1A1A1A;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+@media screen and (max-width:1200px) {
+    .row .col-xl-5 .recomendationVidio {
+        margin-top: 50px;
+    }
+}
